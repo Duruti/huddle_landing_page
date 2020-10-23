@@ -1,0 +1,104 @@
+body{
+   margin: 0;
+}
+.container{
+   position: relative;
+   width : 1440px;
+   height: 800px;
+   margin: 0 auto;
+   background-image: url(images/bg-desktop.svg);
+   background-color: hsl(257, 40%, 49%);
+}
+.logo{
+   position: absolute;
+   width: 264px;
+   height: 54px;
+   background-image: url(images/logo.svg);
+   background-repeat: no-repeat;
+   top: 50px;
+   left: 80px;
+}
+.mockups{
+   position: absolute;
+   width: 709px;
+   height: 506px;
+   background-image: url(images/illustration-mockups.svg);
+   top : 200px;
+   left : 80px;
+}
+
+.information{
+  
+   position : absolute;
+   width: 520px;
+   top : 250px;
+   left: 840px;
+   color: white;
+}
+.information h1{
+   width: 80%;
+   margin: 0;
+   font-family: 'Poppins';
+   font-weight: 700;
+   font-size: 35px;
+}
+.information :last-child{
+   font-family: 'Poppins';
+   line-height: 1.7;
+}
+
+ /* Boutton register */
+
+.register{
+   position: absolute;
+   top: 480px;
+   left: 835px;
+   width: 200px;
+   height: 55px;
+
+   color: hsl(257, 40%, 49%);
+   background-color: white;
+   border-radius: 30px;
+   font-size: 18px;
+   border-style: none;
+}
+
+/* Reseaux Sociaux */
+.social{
+   position: relative;
+   top: 720px;
+   left: 1200px;
+   width: 160px;
+   height: 50px;
+   display: flex;
+   justify-content: space-around;
+}
+.social a{
+  
+   align-self: center;
+   width: 42px;
+   height: 42px;
+   font-size: 42px;
+   text-align: center;
+   color: white;
+}
+.facebook{
+   
+}
+.twitter{
+
+}
+.instagram{
+
+}
+
+
+
+
+
+
+
+
+
+
+
