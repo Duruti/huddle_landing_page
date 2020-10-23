@@ -1,5 +1,8 @@
 body{
    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+  
 }
 .container{
    position: relative;
@@ -82,14 +85,71 @@ body{
    text-align: center;
    color: white;
 }
-.facebook{
-   
-}
-.twitter{
 
-}
-.instagram{
+@media screen and (max-width : 375px){
 
+   .container{
+      position: static;
+      display: block;
+      width: 100vw;
+      background-image: url(images/bg-mobile.svg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      height: 100%;
+      margin: 0;
+      padding: 20px 0; 
+   }
+   .logo{
+      position: static;
+      display: block;
+      background-size: 30vw;
+      background-repeat: no-repeat;
+      width: 40vw;
+      height: 8vw;
+      margin-left: 10vw;
+      margin-bottom: 20vw;
+   }
+   .mockups{
+      background-size: 100%;
+      background-repeat: no-repeat;
+      position: static;
+      margin: 0 auto;
+      width: 80%;
+      height: 60vw;
+      margin-bottom: 20vw;
+   }
+   .information{
+      position: static;
+      display: block;
+      width: 80vw;
+      margin: 0px auto;
+      text-align: center;
+   }
+   .information h1{
+      position: static;
+      width: 100%;
+      font-size: 7vw;
+   }
+   .information p{
+      font-size: 4vw;
+   }
+   .register{
+      position: static;
+      margin: 30px auto;
+      margin-bottom: 20vw;
+      display: block;
+      height: 10vw;
+      width: 50vw;
+      font-size: 4vw;
+   }
+   .social{
+      position: static;
+      margin: 20px auto;
+      width : 50vw;
+   }
+   .social a{
+      font-size: 13vw;
+   }
 }
 
 
